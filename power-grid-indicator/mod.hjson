@@ -1,0 +1,8 @@
+name: power-grid-indicator
+displayName: Power Grid Indicator
+author: Tomáš Rindt
+version: "1.0"
+minGameVersion: "147"
+description: "Draws power node links on the minimap and shows a production/consumption history chart when you click a power node. Client-side only."
+# client-side only: servers and other players don't need it
+hidden: true
