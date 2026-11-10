@@ -197,6 +197,8 @@ Events.on(WorldLoadEvent, () => {
     history = {};
     acc = {};
     selected = null;
+    segments = [];
+    dots = []; // don't show the previous map's grid on a new one
 });
 
 // clicking a power node (any node of your team) opens its grid's chart
